@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'courses',
     'chatbot',
-    'authentication',
+    'authenticate',
     'progress',
 ]
 
@@ -58,7 +58,7 @@ ROOT_URLCONF = 'employee_onboarding.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
